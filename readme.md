@@ -42,9 +42,9 @@ Fábrica encargada de devolver el transporte elegido con un menú (switch)
 Llamo a la factoria para crear los objetos y calcular el coste y el tipo de embalaje
 
 ```
- obx = FactoriaTransportable.getProducto(FactoriaTransportable.BICICLETA);
-        System.out.println("El coste total es: " + obx.costeTotal(20000) + " euros");
-        System.out.println(obx.tipoEmbalaje(10F, 3F, 10F, 4F));
+ tran = FactoriaTransportable.getProducto(FactoriaTransportable.BICICLETA);
+        System.out.println("El coste total es: " + tran.costeTotal(20000) + " euros");
+        System.out.println(tran.tipoEmbalaje(10F, 3F, 10F, 4F));
 ```        
 
 <br>
