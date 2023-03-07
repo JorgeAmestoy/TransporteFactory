@@ -47,3 +47,9 @@ Llamo a la factoria para crear los objetos y calcular el coste y el tipo de emba
         System.out.println(obx.tipoEmbalaje(10F, 3F, 10F, 4F));
 ```        
 
+<br>
+
+**Diagrama de Clases:**
+<br>
+
+![Diagrama](diagramaFactory.jpg)
