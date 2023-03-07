@@ -6,15 +6,15 @@
 public class Camion implements ITransportable {
 
     /**
-     * Declaro variable literal de tipo de embalaje carton
+     * Declaro literal de tipo de embalaje carton
      */
     public static final int CARTON = 0;
     /**
-     * Declaro variable literal de tipo de embalaje palet
+     * Declaro literal de tipo de embalaje palet
      */
     public static final int PALET = 1;
     /**
-     * Declaro variable literal de tipo de embalaje madera
+     * Declaro literal de tipo de embalaje madera
      */
     public static final int MADERA = 2;
 

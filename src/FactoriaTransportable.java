@@ -1,10 +1,10 @@
 public class FactoriaTransportable {
     /**
-     * Declaro constante literal de camion
+     * Declaro literal de camion
      */
     public static final int CAMION = 1;
     /**
-     * Declaro constante literal de bicicleta
+     * Declaro literal de bicicleta
      */
     public static final int BICICLETA = 2;
 

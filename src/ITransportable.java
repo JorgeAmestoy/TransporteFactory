@@ -20,9 +20,6 @@ public interface ITransportable {
      * Declaro constante de codigo postal 1
      */
     int codigoPostal1 = 25000;
-    /**
-     * Declaro constante de codigo postal 2
-     */
-    int codigoPostal2 = 53000;
+
 
 }
