@@ -39,7 +39,7 @@ Fábrica encargada de devolver el transporte elegido con un menú (switch)
         }
  ```       
 **Clase Main<br>**
-Llamo a la factoria para crear los objetos y calcular el coste y el tipo de embalaje
+Llamo a la factoría para crear los objetos y calcular el coste y el tipo de embalaje
 
 ```
  tran = FactoriaTransportable.getProducto(FactoriaTransportable.BICICLETA);
