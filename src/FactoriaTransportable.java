@@ -7,6 +7,10 @@ public class FactoriaTransportable {
      * Declaro literal de bicicleta
      */
     public static final int BICICLETA = 2;
+    /**
+     * Declaro literal de barco
+     */
+    public static final int BARCO = 3;
 
     /**
      * Metodo que devuelve el tipo de transporte
@@ -23,6 +27,9 @@ public class FactoriaTransportable {
 
             case BICICLETA:
                 return new Bicicleta();
+
+            case BARCO:
+                return new Barco();
 
             default:
                 return null;
