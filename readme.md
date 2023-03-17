@@ -54,14 +54,12 @@ Llamo a la factoría para crear los objetos y calcular el coste y el tipo de emb
         System.out.println(tran.tipoEmbalaje(90F, 100F, 50F, 60F));
 ```        
 
-Me va a mostrar el resultado de los métodos implantados en la clase Barco:
-
-
 
 <br>
 
 **Diagrama de Clases:**
 <br>
+![Captura](DiagramaTransporte.jpg)
 
 
 
