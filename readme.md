@@ -46,20 +46,22 @@ Fábrica encargada de devolver el transporte elegido con un menú (switch)
         }
  ```       
 **Clase Main<br>**
-Llamo a la factoría para crear los objetos y calcular el coste y el tipo de embalaje
+Llamo a la factoría para crear los objetos y calcular el coste y el tipo de embalaje. 
 
 ```
- tran = FactoriaTransportable.getProducto(FactoriaTransportable.BICICLETA);
+ tran = FactoriaTransportable.getProducto(FactoriaTransportable.BARCO);
         System.out.println("El coste total es: " + tran.costeTotal(20000) + " euros");
-        System.out.println(tran.tipoEmbalaje(10F, 3F, 10F, 4F));
+        System.out.println(tran.tipoEmbalaje(90F, 100F, 50F, 60F));
 ```        
+
+Me va a mostrar el resultado de los métodos implantados en la clase Barco:
+
+
 
 <br>
 
 **Diagrama de Clases:**
 <br>
 
-![Diagrama](diagramaFactory.jpg)
 
 
-[JAVADOCS](https://jorgeamestoy.github.io/TransporteFactory/)
