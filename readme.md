@@ -18,6 +18,10 @@ Desarrolla los métodos de la Interfaz Transportable de acuerdo a las propias ca
 Desarrolla los distintos métodos de la Interfaz Transportable de acuerdo 
 a las propias características de la clase
 
+**Clase Barco<br>**
+Desarrolla los distintos métodos de la Interfaz Transportable de acuerdo
+a las propias características de la clase
+
 **FactoriaTransportable<br>**
 Fábrica encargada de devolver el transporte elegido con un menú (switch)
 
@@ -31,6 +35,9 @@ Fábrica encargada de devolver el transporte elegido con un menú (switch)
 
             case BICICLETA:
                 return new Bicicleta();
+                
+            case BARCO:
+                 return new Barco();
 
             default:
                 return null;
